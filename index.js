@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = 'mongodb+srv://liertakesoj:HygFmN64BqfaOLVt@tinychaosdemo.pur95un.mongodb.net//Hard?retryWrites=true&w=majority'; // Replace with your MongoDB Atlas connection URI
+const MONGO_URI = 'mongodb+srv://liertakesoj:HygFmN64BqfaOLVt@tinychaosdemo.pur95un.mongodb.net/Hard?retryWrites=true&w=majority'; // Replace with your MongoDB Atlas connection URI
 
 // Middleware
 app.use(cors());
