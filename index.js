@@ -67,7 +67,7 @@ app.get('/api/leaderboard', async (req, res) => {
 
 // Route to add a new leaderboard score
 app.post('/api/leaderboard', async (req, res) => {
-const {name, difficulty, statsp1, statsp2, score, levelachieved, totalkill } = req.body;
+const {name, difficulty, statsp1, statsp2, score, levelachieved, totalkill, version } = req.body;
 
 if (!name || !difficulty || !statsp1 || !score || isNaN(score)) {
   return res.status(400).json({ error: 'Name, valid score, and player class are required.' });
