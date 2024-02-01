@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Katr-Games-s-workspace-rrfe4h.us-east-1.xata.sh/db/katrscoreboard",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

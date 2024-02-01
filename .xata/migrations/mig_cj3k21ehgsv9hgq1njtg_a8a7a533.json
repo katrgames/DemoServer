@@ -1,0 +1,18 @@
+{
+  "id": "mig_cj3k21ehgsv9hgq1njtg",
+  "parentID": "mig_cj3k0s56cg15gieqs14g",
+  "checksum": "1:a8a7a53344434bab3b17cfbe0ef3fe4b55352f39f6b40d3bdb10d15a6109c32c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "score",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "scoreboard"
+      }
+    }
+  ]
+}

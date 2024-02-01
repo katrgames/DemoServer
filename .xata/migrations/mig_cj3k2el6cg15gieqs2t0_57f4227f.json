@@ -1,0 +1,18 @@
+{
+  "id": "mig_cj3k2el6cg15gieqs2t0",
+  "parentID": "mig_cj3k21ehgsv9hgq1njtg",
+  "checksum": "1:57f4227ff3dcfa711f93d4ab4cf4f3784f456ce6088f521fcdee42505e751877",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "character",
+          "type": "string",
+          "notNull": true,
+          "defaultValue": "soldier"
+        },
+        "table": "scoreboard"
+      }
+    }
+  ]
+}
