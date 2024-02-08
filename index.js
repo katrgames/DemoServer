@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-
+require('dotenv').config()
 const app = express();
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@tinychaosdemo.pur95un.mongodb.net/Hard?retryWrites=true&w=majority`; // Replace with your MongoDB Atlas connection URI
